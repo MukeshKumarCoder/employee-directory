@@ -1,42 +1,44 @@
-# employee-directory# 👩‍💼 Employee Directory App
+# 🧑‍💼 Employee Directory Web App
 
-A responsive Employee Directory web application built with **HTML**, **CSS**, and **JavaScript**. It allows you to **add**, **edit**, **delete**, **filter**, and **search** employee records. Data is stored in **localStorage** for persistence across sessions.
+A responsive and interactive Employee Directory web application built using **HTML**, **CSS**, **Vanilla JavaScript**, and **Freemarker** templating engine. This project demonstrates modern front-end development practices and dynamic client-side behavior using pure JavaScript with server-side rendered data via Freemarker.
 
 ---
+
 ## deployed link- https://golden-puffpuff-40b897.netlify.app/
+
 ## 🚀 Features
 
-- ✅ Add new employees using a modal form.
-- ✏️ Edit existing employee details.
-- ❌ Delete employees with confirmation.
-- 🔍 Real-time search by name or email.
-- 📊 Filter employees by:
-  - First Name
-  - Department
-  - Role
-- ⏳ Sort and control how many items to display per page.
-- 💾 Automatically saves all data to `localStorage`.
-- 📱 Fully responsive layout for all screen sizes.
-- 🎨 Interactive UI with hover effects and animations.
+- ✅ Dynamic employee listing
+- ✅ Add, Edit, Delete employee entries (stored in `localStorage`)
+- ✅ Real-time search by name or email
+- ✅ Filtering by Name, Department, and Role
+- ✅ Sorting and Pagination
+- ✅ Responsive and accessible UI
+- ✅ Modal and Sidebar management with JavaScript
+- ✅ Data rendering via Freemarker template into global JS variable
 
 ---
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3 (Media Queries + Flexbox + Transitions)
-- Vanilla JavaScript (DOM Manipulation + localStorage)
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+- **Freemarker Template Engine**
+- **LocalStorage** for client-side persistence
 
 ---
 
 ## 📂 File Structure
 
-project/
-├── index.html # Main HTML file
-├── styles.css # for style
-├── dashboard.js # App logic and functionality
-├── data.js # (Optional) Initial data file if not using localStorage
-└── README.md # You're reading it!
+employee-directory/
+│
+├── index.ftl # Main HTML template rendered via Freemarker
+├── style.css # Custom styling for the UI
+├── data.js # Static or rendered employee data (via Freemarker)
+├── dashboard.js # Main logic for filtering, search, modal handling, etc.
+├── README.md
+└── ...
 
 yaml
 Copy
@@ -54,3 +56,8 @@ Edit
    - All changes are saved automatically in your browser's localStorage.
 
 ---
+
+🙌 Author
+👤 [Mukesh Kumar]
+📧 [mg328790@gmail.com]
+🌐 [Portfolio](https://mukeshkumarcoder.github.io/mukesh_gupta_coder/)
